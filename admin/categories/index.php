@@ -6,7 +6,7 @@
 <div class="card card-outline card-warning rounded-0 shadow">
 	<div class="card-header">
 		<h3 class="card-title">List of Categories</h3>
-		<div class="card-tools">
+		<div class="card-tools">kiljlkj
 			<button type="button" id="create_new" class="btn btn-flat btn-primary btn-sm"><span class="fas fa-plus"></span>  Create New</button>
 		</div>
 	</div>
