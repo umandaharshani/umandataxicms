@@ -1,16 +1,19 @@
 <?php require_once('config.php'); ?>
-<!DOCTYPE html>
+<!DOCTYPE html>shuioqeas
 <html lang="en">
 <?php require_once('inc/header.php') ?>
 <body>
 <?php $page = isset($_GET['p']) ? $_GET['p'] : 'home';  ?>
 <?php require_once('inc/topBarNav.php') ?>
      <?php if($_settings->chk_flashdata('success')): ?>
+     minsadi
       <script>minsadi
         alert_toast("<?php echo $_settings->flashdata('success') ?>",'success')
       </script>
 <?php endif;?>
 <?php 
+fhbiewuocnj
+     
     if(!file_exists($page.".php") && !is_dir($page)){
         include '404.html';
     }else{
@@ -20,6 +23,7 @@
         include $page.'.php';
     }
 ?>
+3hfbiwlefipwr
 <?php require_once('inc/footer.php') ?>
 
   <div class="modal fade" id="uni_modal" role='dialog'>
@@ -35,6 +39,7 @@
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
       </div>
       </div>
+         tuyiuhnopk
     </div>
   </div>
   <div class="modal fade" id="uni_modal_right" role='dialog'>
@@ -74,6 +79,7 @@
       </div>
       </div>
     </div>
+       ertyujbvfdxcfguhij
   </div>
 
 </body>
