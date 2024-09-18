@@ -6,7 +6,7 @@
 <?php $page = isset($_GET['p']) ? $_GET['p'] : 'home';  ?>
 <?php require_once('inc/topBarNav.php') ?>
      <?php if($_settings->chk_flashdata('success')): ?>
-      <script>
+      <script>minsadi
         alert_toast("<?php echo $_settings->flashdata('success') ?>",'success')
       </script>
 <?php endif;?>
